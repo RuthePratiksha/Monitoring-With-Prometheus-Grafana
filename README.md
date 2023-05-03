@@ -4,6 +4,8 @@ Monitoring With Prometheus &amp; Grafana
 Create 3 instances using ubuntu and install docker on all the machines
 name them 1,2&3
 
+
+
 to install docker on ubuntu server run these commands one by one
 sudo su
 sudo apt-get remove docker docker-engine docker.io
@@ -13,8 +15,9 @@ sudo snap install docker
 docker --version
 
 
-on the 1st machine run the following commands
 
+
+on the 1st machine run the following commands
 docker swarm init --advertise-addr 18.223.151.153
 paste
 docker node ls
