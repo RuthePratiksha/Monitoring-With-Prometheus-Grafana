@@ -41,3 +41,5 @@ check the public ip
 :3000 for grafana
 
 
+https://medium.com/@pratiksharuthe/monitoring-with-prometheus-grafana-881ccd69673f
+
